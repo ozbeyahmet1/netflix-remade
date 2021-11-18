@@ -1,0 +1,185 @@
+.loginScreen__banner {
+  height: 80vh;
+  border-bottom: 10px solid rgb(80, 80, 80);
+  background-image: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.loginScreen__middle {
+  color: white;
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginScreen--xlfont {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.loginScreen--lgfont {
+  margin-top: 10px;
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.loginScreen--mdfont {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.loginScreen__input {
+  display: flex;
+  height: 70px;
+  align-items: flex-start;
+}
+.loginScreen__email {
+  width: 75%;
+  height: 66px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 0;
+  border: none;
+}
+.loginScreen__button {
+  width: 25%;
+  background-color: #f40612;
+  height: 70px;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  border: none;
+}
+
+.loginScreen__background {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.loginScreen__button > h3 {
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .loginScreen__input {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .loginScreen__button {
+    height: 100%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border: none;
+  }
+
+  .loginScreen__button > h3 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .loginScreen__middle {
+    color: white;
+    max-width: 500px;
+    height: 214px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .loginScreen--xlfont {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .loginScreen--lgfont {
+    margin-top: 10px;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .loginScreen--mdfont {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .loginScreen__input {
+    display: flex;
+    align-items: center;
+    height: 45px;
+  }
+  .loginScreen__email {
+    max-width: 500px;
+    height: 45px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 576px) {
+  .loginScreen__button {
+    height: 100%;
+    font-size: 20px;
+  }
+
+  .loginScreen__button > h3 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .loginScreen__middle {
+    color: white;
+    max-width: 300px;
+    height: 214px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+
+  .loginScreen--xlfont {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .loginScreen--lgfont {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .loginScreen--mdfont {
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .loginScreen__input {
+    display: flex;
+    align-items: center;
+    height: 45px;
+  }
+  .loginScreen__email {
+    max-width: 500px;
+    height: 45px;
+    display: inline-block;
+  }
+}

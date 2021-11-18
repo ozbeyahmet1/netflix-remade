@@ -1,0 +1,40 @@
+.navbar {
+  height: 50px;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+  transition-timing-function: ease-out;
+  transition: all 0.5s;
+  z-index: 9999;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__black {
+  background: black;
+}
+.navbar__logo {
+  position: fixed;
+  width: 150px;
+  object-fit: contain;
+  left: 0;
+  padding-left: 40px;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.navbar__icon {
+  position: fixed;
+  width: 40px;
+  right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+
+@media (max-width: 576px) {
+  .navbar__logo {
+    padding-left: 10px;
+  }
+}

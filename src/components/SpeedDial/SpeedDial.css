@@ -1,0 +1,108 @@
+.SpeedDialImage {
+  width: 50px;
+  height: 50px;
+  background: none;
+}
+
+.SpeedDialImage--borderRadius {
+  border-radius: 50%;
+}
+
+.SpeedDial {
+  align-self: flex-end;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  background: none;
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.SpeedDial:hover {
+  animation: none;
+  animation-name: none;
+}
+
+.speedDial__modal {
+  background-color: rgba(255, 156, 0, 0.8);
+}
+
+.modal__box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40vh;
+  border: none;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+#transition-modal-description {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 15px;
+}
+.relatif {
+  color: red;
+  cursor: pointer;
+}
+
+.relatif:hover {
+  color: #000;
+}
+.immage {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(51, 51, 51, 0.24) 0px 3px 8px;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+}
+.modal__play {
+  opacity: 0.6;
+}
+
+.speedDial__modals {
+  background-color: rgba(9, 12, 19, 0.8);
+}
+
+@media (max-width: 1200px) {
+  .modal__body {
+    flex-direction: column;
+  }
+  .modal__box {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 50vh;
+  }
+  .semmy {
+    width: 100%;
+  }
+  .boxes {
+    width: 100%;
+    box-shadow: none;
+  }
+}

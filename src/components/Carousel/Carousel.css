@@ -1,0 +1,48 @@
+.carousel{
+    position:absolute;
+    margin-top: 60vh;
+    margin-bottom: 40vh;
+    height: 20vh;
+    margin-left: 60%;
+    width: 40%;
+    background-color: none;
+    z-index:999;
+    opacity:1;
+}
+
+.carousel__image{
+    width: 364px;
+    height: 260px;
+    margin: auto;
+    text-align: center;
+    border-radius:15px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right:20px;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) and (max-width: 1200px) { 
+
+    .carousel{
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    height: 10vh;
+    margin-left: 60%;
+    width: 40%;
+    }
+
+
+    .carousel__image{
+    width: 270px;
+    height: 195px;
+    margin-right:10px;
+    }
+}
+
+@media (max-width: 576px){ 
+    .carousel{
+        display:none;
+    }
+}

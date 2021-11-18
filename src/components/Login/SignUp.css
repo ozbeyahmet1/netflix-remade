@@ -1,0 +1,122 @@
+
+
+.loginScreen__form{
+    position: absolute;
+    color: white;
+    max-width: 300px;
+    background-color: rgba(0,0,0,0.75);
+    padding:70px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__login{
+    margin-top:30px;
+    width: 320px;
+    height: 50px;
+    background-color: #E8F0FE;
+    position: relative;
+    border-radius: 5px;
+    border: none;                       
+}
+
+.loginScreen__text{
+    margin-top: 10px;
+}
+.loginScreen__direct{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top:10px;
+
+}
+.form_joinButton{
+    color: rgb(82, 82, 82);
+}
+
+.form__signin{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top:45px;
+    position: relative;
+}
+
+.form__button{
+    height:50px;
+    width:327px;
+    border-radius:5px;
+    border:none;
+    background-color:#E50914;
+    font-size:16px;
+    color:white;
+    font-weight:700;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+/* .loginbuttons{
+    width: 320px;
+    height: 50px;
+    background-color: #E8F0FE;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+} */
+
+
+.navbar{
+ 
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    transition-timing-function: ease-out;
+    transition: all 0.5s;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+
+.navbar__black {
+
+    background: black;
+  
+
+}
+.logo{
+    position: fixed;
+    width: 150px;
+    object-fit: contain;
+    left: 0;
+    padding-left: 40px;
+    cursor: pointer;
+    padding-top: 5px;
+
+}
+
+.icon{
+    position: fixed;
+    width: 40px;
+    right: 20px;
+    object-fit: contain;
+    cursor: pointer;
+    
+    
+}
+
+.signinicon{
+    position: fixed;
+    width: 100px;
+    right: 20px;
+    object-fit: contain;
+    cursor: pointer;
+    padding:10px;
+    background-color: red;
+    
+}

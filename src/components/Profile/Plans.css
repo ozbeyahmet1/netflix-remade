@@ -1,0 +1,37 @@
+.plans__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plans__plan:hover {
+  opacity: 1;
+}
+
+.plans__plan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+.plans__plan--disabled > button {
+  background-color: #857f7f !important;
+}
+
+.plans__info {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .plans__plan > button {
+    padding: 5px 5px;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+  }
+}
